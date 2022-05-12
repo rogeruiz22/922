@@ -23,12 +23,13 @@ jobs:
          
     - name: Build with Maven
       run: |
-         #cd src/test/java/mainScripts/
+         cd src/test/java/mainScripts/
          mvn -B package --file pom.xml
          
     - name: Run java class
       run: |
          javac Tests.java
+         java Tests.java
          
          
       
