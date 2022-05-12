@@ -18,4 +18,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           cd /home/runner/work/922/922/src/main/java/mainScripts/
-          exec Main.java
+          java Main
