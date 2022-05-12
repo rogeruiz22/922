@@ -21,4 +21,4 @@ jobs:
           cd main/
           cd java/
           cd mainScripts/
-          java Main
+          java Main.java
