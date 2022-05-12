@@ -20,8 +20,5 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          cd src/
-          cd main/
-          cd java/
-          cd mainScripts/
+          cd ./src/main/java/mainScripts/
           java Main
