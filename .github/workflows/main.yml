@@ -15,12 +15,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      - name: Prueba
-        run: mvn clean test
+      - name: Building the Project
+        run: mvn package
 
       - name: Run a multi-line script
         run: |
           cd src/main/java/mainScripts/
-          exec Main
-          javac Main
-          java Main
+          javas Tests
+          java Tests
+          
