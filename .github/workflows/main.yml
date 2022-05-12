@@ -16,11 +16,19 @@ jobs:
       - uses: actions/checkout@v3
       
       - name: Building the Project
-        run: mvn package
+        run: |
+          cd src/
+          cd main/
+          cd java/
+          cd mainScripts/
+          mvn package
 
       - name: Run a multi-line script
         run: |
-          cd src/main/java/mainScripts/
+          cd src/
+          cd main/
+          cd java/
+          cd mainScripts/
           javac Tests
           java Tests
           
