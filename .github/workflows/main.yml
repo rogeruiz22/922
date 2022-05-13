@@ -24,9 +24,9 @@ jobs:
       run: |
          mvn clean
          mvn compile
+         mvn install
          mvn package
          mvn -B package --file pom.xml
-         mvn install
          
     - name: Run Java class
       run: |

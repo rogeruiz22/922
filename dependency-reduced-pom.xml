@@ -18,7 +18,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>mainScripts.Tests</mainClass>
+                  <mainClass>Tests</mainClass>
                 </transformer>
               </transformers>
             </configuration>
