@@ -30,7 +30,7 @@ jobs:
          
     - name: Run Java class
       run: |
-         cd src/test/java/mainScripts/
+         cd src/main/java/mainScripts/
          javac Main.java
          java Main.java
          
